@@ -76,7 +76,7 @@ btnSalvar.onclick = e => {//botão com ação de salvar caso as informações la
     itens[id].tarefa = cTarefa.value
     itens[id].descricao = cDescricao.value
   } else {
-    itens.push({'tarefa': cTarefa.value, 'vencimento': cDescricao.value})
+    itens.push({'tarefa': cTarefa.value, 'descricao': cDescricao.value})
   }
   setItensBD()
 
